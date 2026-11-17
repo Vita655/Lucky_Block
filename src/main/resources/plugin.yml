@@ -1,0 +1,13 @@
+name: LuckyBlock
+main: com.example.luckyblock.LuckyBlock
+version: 1.0
+description: Mario-style Lucky Block with good and bad surprises.
+commands:
+  luckyblock:
+    description: Give yourself or a player a Lucky Block
+    usage: /luckyblock give [player]
+    permission: luckyblock.give
+permissions:
+  luckyblock.give:
+    description: Allows /luckyblock give
+    default: op
